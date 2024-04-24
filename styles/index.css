@@ -1,0 +1,17 @@
+.image-acceuil {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.texte-acceuil {
+    font-family: Corinthia, cursive;
+    font-size: 5.5em;
+    color: white;
+    text-align: center;
+}

@@ -4,22 +4,36 @@
         <meta charset="utf-8">
         <title>Le Flore Cambrai</title>
         <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header><!--Ajouter le logo-->
+        <header>
             <nav>
-                <p>Acceuil</p>
-                <p>La carte</p>
-                <p>Les photos</p>
-                <p>Nous contacter</p>
+                <div class="nav-gauche">
+                    <a href="index.html">Acceuil</a><!--voir pour remplacer par le logo-->
+                </div>
+                <div class="nav-milieu"><!--Navigation centrale-->
+                    <a href="carte.html">La carte</a>
+                    <a href="photos.html">Les photos</a>
+                </div>
+                <div class="nav-droite"><!--Navigation droite-->
+                    <a href="contact.html">Nous Contacter</a>
+                </div>
             </nav>
         </header>
         <main>
-            <section id="presentation"><!--Voir pour amééliorer et détailler la présentation-->
-                <img src="/image/le-flore-facade.png" />
+            <section id="image-acceuil">
+                <div class="image-acceuil" style="background-image: url(image/le-flore-int-4.jpg);">
+                    <div class="texte-acceuil">
+                        <h4>Bar - Brasserie</h4>
+                        <h1>Le Flore (Cambrai)</h1>
+                    </div>
+                </div>
+            </section>
+            <section id="presentation"><!--Voir pour améliorer et détailler la présentation-->
                 <h1>Le Flore</h1>
                 <p>Venez trouver dans un cadre calme et fleuri, un bar très élégant où vous pourrez passer un bon moment autour d'un verre de vin, d'un café ou même autour de bons cocktails !</br>
                     Situé au coeur du Mail-Saint-Martin, en plein centre ville de de Cambrai ; </br>vous y trouverez une terasse ensoleillée où il fait bon de s'y arrêter.</p>
@@ -116,10 +130,23 @@
                 <img src="/image/le-flore-int-2.jpg">
                 <img src="image/le-flore-facade-1.jpg">
                 <img src="image/le-flore-int-3.jpg">
-                <p>Plus de photos</p>
+                <a href="photos.html">Plus de photos</a>
             </section>
         </main>
         <footer>
+            <div><!--Footer partie Gauche-->
+                <h4>Adresse/Contact</h4>
+                <p>10 Mail Saint MArtin,</br>
+                   59400, Cambrai.</p>
+                <p>03.27.83.39.83</p>
+            </div>
+            <div><!--Footer partie centrale-->
+                <h4>Nous Contacter</h4>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div><!--Footer partie droite-->
+                <h4>Nous Suivre</h4><!--Ajouter logo et liens Facebook et instagram-->
+            </div>
         </footer>
     </body>
 </html>

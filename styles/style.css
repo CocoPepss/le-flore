@@ -2,12 +2,24 @@
     margin: 0;
 }
 
-h1, h2, h3 {
+nav {
+    background-color: #202020;
+    color: orange;
+    font-family: Corinthia, cursive;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: orange; 
+}
+
+nav a:visited {
     color: orange;
 }
 
-header {
-    background-color: black;
-    color: orange;
-    font: Corinthia;
+.nav-milieu a {
+    margin: 30px;
 }
