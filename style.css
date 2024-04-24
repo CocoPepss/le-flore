@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+
+h1, h2 {
+    color: orange;
+}
+
+header {
+    background-color: black;
+    color: orange;
+}
