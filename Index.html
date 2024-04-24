@@ -3,35 +3,120 @@
     <head>
         <meta charset="utf-8">
         <title>Le Flore Cambrai</title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <p>La carte</p>
+        <header><!--Ajouter le logo-->
+            <nav>
+                <p>Acceuil</p>
+                <p>La carte</p>
+                <p>Les photos</p>
+                <p>Nous contacter</p>
+            </nav>
         </header>
         <main>
-            <section class="presentation">
+            <section id="presentation"><!--Voir pour amééliorer et détailler la présentation-->
                 <img src="/image/le-flore-facade.png" />
-                <h1>Le Flore</h1><!--Voir pour détailler les cadre-->
+                <h1>Le Flore</h1>
                 <p>Venez trouver dans un cadre calme et fleuri, un bar très élégant où vous pourrez passer un bon moment autour d'un verre de vin, d'un café ou même autour de bons cocktails !</br>
                     Situé au coeur du Mail-Saint-Martin, en plein centre ville de de Cambrai ; </br>vous y trouverez une terasse ensoleillée où il fait bon de s'y arrêter.</p>
                 <p>Vous y trouverez également tous les midis ainsi que les Jeudi, Vendredi et Samedi soir ; une restauration familiale !</br>
-                    Venez tester notre Welsh Maison, notre escalope de dinde à la forestière ou découvrir nos nombreux plats à <a href="menu.html">la carte</a>,</br>
+                    Venez tester notre Welsh Maison, notre escalope de dinde à la forestière ou découvrir nos nombreux plats à <a href="carte.html">la carte</a>,</br>
                     le tout, servie avec notre frites fraîches maison !!</p>
             </section>
-            <section class="horaires"><!--Attention changement d'horaires prévu-->
+            <section id="horaires"><!--Attention changement d'horaires prévu-->
                 <h1>Les Horaires</h1>
-                <h2>Le Bar</h2>
-                    <ul>
-                        <li>Lundi-Jeudi 10h - 00h</li>
-                        <li>Vendredi 10h - 01h</li>
-                        <li>Samedi 10h - 02h</li>
-                        <li>Dimanche 11h30 - 14h</li>
-                    </ul>
-                <h2>La restauration</h2>
-                    <p>Du lundi au dimanche midi de 12h à 14h</p>
-                    <p>Le Jeudi soir de 19h30 à 21h30</p>
-                    <p>Le Vendredi et Samedi soir de 19h30 à 22h</p>
+                <table>
+                    <caption>Le Bar</caption>
+                    <tr>
+                        <th>Jour</th>
+                        <th>horaires</th>
+                    </tr>
+                    <tr>
+                        <td>Lundi</td>
+                        <td>10h - 00h</td>
+                    </tr>
+                    <tr>
+                        <td>Mardi</td>
+                        <td>10h - 00h</td>
+                    </tr>
+                    <tr>
+                        <td>mercredi</td>
+                        <td>10h - 00h</td>
+                    </tr>
+                    <tr>
+                        <td>Jeudi</td>
+                        <td>10h - 00h</td>
+                    </tr>
+                    <tr>
+                        <td>Vendredi</td>
+                        <td>10h - 01h</td>
+                    </tr>
+                    <tr>
+                        <td>Samedi</td>
+                        <td>10h - 02h</td>
+                    </tr>
+                    <tr>
+                        <td>Dimanche</td>
+                        <td>11h30 - 14h</td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>La restauration</caption>
+                    <tr>
+                        <th>Jour</th>
+                        <th>Midi</th>
+                        <th>Soir</th>
+                    </tr>
+                    <tr>
+                        <td>Lundi</td>
+                        <td>12h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Mardi</td>
+                        <td>12h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Mercredi</td>
+                        <td>12h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Jeudi</td>
+                        <td>12h - 14h</td>
+                        <td>19h30 - 21h30</td>
+                    </tr>
+                    <tr>
+                        <td>Vendredi</td>
+                        <td>12h - 14h</td>
+                        <td>19h30 - 22h</td>
+                    </tr>
+                    <tr>
+                        <td>Samedi</td>
+                        <td>12h - 14h</td>
+                        <td>19h30 - 22h</td>
+                    </tr>
+                    <tr>
+                        <td>Dimanche</td>
+                        <td>12h - 14h</td>
+                    </tr>
+                </table>   
+            </section>
+            <section id="contact">
+                <h1>Nous contacter</h1>
+                <p>Vener nous rejoindre au <strong>10 Mail Saint Martin à Cambrai (59400)</strong></p>
+                <p>Toutes nos réservations se font par téléphone au : <strong>03.27.83.39.83</strong> !</p>
+                <p>En cas de demandes particulières (privatisation, groupe, etc.) ;</br>
+                Vous pouvez nous communiquer votre demande ou toute cos question via la page <a href="contact.html">contact</a></p>
+            </section>
+            <section id="Photos"><!--Voir pour les 3 photos les plus attrayantes-->
+                <h1>Photos</h1>
+                <img src="/image/le-flore-int-2.jpg">
+                <img src="image/le-flore-facade-1.jpg">
+                <img src="image/le-flore-int-3.jpg">
+                <p>Plus de photos</p>
             </section>
         </main>
         <footer>

@@ -2,11 +2,12 @@
     margin: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: orange;
 }
 
 header {
     background-color: black;
     color: orange;
+    font: Corinthia;
 }
