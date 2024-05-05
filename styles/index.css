@@ -54,8 +54,9 @@ p{
     width: 50%;
     margin: auto;
     padding: 30px;
-    background-color: lavender;
-    border-radius: 53% 47% 26% 74% / 75% 45% 55% 25% 
+    background-color: rgba(126, 137, 92, 50%) ;
+    
+    border-radius: 16% 84% 23% 77% / 83% 82% 18% 17% 
 }
 
 /*Les horaires*/
@@ -69,6 +70,7 @@ table {
 caption {
     font-size: 25px;
     padding: 15px;
+    
 }
 
 td, th {
