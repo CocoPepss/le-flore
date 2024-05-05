@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Le Flore Cambrai</title>
-        <link rel="stylesheet" href="/styles/style.css">
-        <link rel="stylesheet" href="/styles/index.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
@@ -13,9 +13,10 @@
         <header>
             <nav>
                 <div class="nav-gauche">
-                    <a href="index.html">Acceuil</a><!--voir pour remplacer par le logo-->
+                    <a href="index.html"><img src="icones/flore-icone.png" id="logo-flore"></a><!--voir pour remplacer par le logo-->
                 </div>
                 <div class="nav-milieu"><!--Navigation centrale-->
+                    <a href="index.html">Acceuil</a>
                     <a href="carte.html">La carte</a>
                     <a href="photos.html">Les photos</a>
                 </div>
@@ -26,21 +27,26 @@
         </header>
         <main>
             <section id="image-acceuil">
-                <div class="image-acceuil" style="background-image: url(image/le-flore-int-4.jpg);">
-                    <div class="texte-acceuil">
+                <div class="image-acceuil" style="background-image: url(image/IMG_0042.jpg);">
+                    <!--<div class="texte-acceuil">
                         <h4>Bar - Brasserie</h4>
                         <h1>Le Flore (Cambrai)</h1>
-                    </div>
+                    </div>--> <!--Voir selon la photo pour mettre le texte au centre de l'acceuil-->
                 </div>
             </section>
             <section id="presentation"><!--Voir pour améliorer et détailler la présentation-->
                 <h1>Le Flore</h1>
-                <p>Venez trouver dans un cadre calme et fleuri, un bar très élégant où vous pourrez passer un bon moment autour d'un verre de vin, d'un café ou même autour de bons cocktails !</br>
-                    Situé au coeur du Mail-Saint-Martin, en plein centre ville de de Cambrai ; </br>vous y trouverez une terasse ensoleillée où il fait bon de s'y arrêter.</p>
+                <p>Venez trouver dans un <strong>calme et fleuri</strong>,
+                    un bar très élégant où vous pourrez passer un bon moment autour d'un verre de vin,</br>
+                    d'un café ou même autour de bons cocktails !</br>
+                    Situé au coeur du <strong>Mail-Saint-Martin</strong>, en plein centre ville de de Cambrai ;
+                </br>vous y trouverez une terasse ensoleillée où il fait bon de s'y arrêter.</p>
+                    <br>
                 <p>Vous y trouverez également tous les midis ainsi que les Jeudi, Vendredi et Samedi soir ; une restauration familiale !</br>
-                    Venez tester notre Welsh Maison, notre escalope de dinde à la forestière ou découvrir nos nombreux plats à <a href="carte.html">la carte</a>,</br>
-                    le tout, servie avec notre frites fraîches maison !!</p>
+                    Venez tester notre Welsh Maison, notre escalope de dinde à la forestière ou découvrir nos <strong>nombreux plats</strong> à <a href="carte.html">la carte</a>,</br>
+                    le tout, servie avec nos <strong>frites fraîches maison</strong> !!</p>
             </section>
+            <hr>
             <section id="horaires"><!--Attention changement d'horaires prévu-->
                 <h1>Les Horaires</h1>
                 <table>
@@ -118,6 +124,7 @@
                     </tr>
                 </table>   
             </section>
+            <hr>
             <section id="contact">
                 <h1>Nous contacter</h1>
                 <p>Vener nous rejoindre au <strong>10 Mail Saint Martin à Cambrai (59400)</strong></p>
@@ -125,27 +132,34 @@
                 <p>En cas de demandes particulières (privatisation, groupe, etc.) ;</br>
                 Vous pouvez nous communiquer votre demande ou toute cos question via la page <a href="contact.html">contact</a></p>
             </section>
+            <hr>
             <section id="Photos"><!--Voir pour les 3 photos les plus attrayantes-->
                 <h1>Photos</h1>
-                <img src="/image/le-flore-int-2.jpg">
+                <img src="image/le-flore-int-2.jpg">
                 <img src="image/le-flore-facade-1.jpg">
                 <img src="image/le-flore-int-3.jpg">
                 <a href="photos.html">Plus de photos</a>
             </section>
         </main>
         <footer>
-            <div><!--Footer partie Gauche-->
+            <div class="footer-main"><!--Footer partie Gauche-->
                 <h4>Adresse/Contact</h4>
-                <p>10 Mail Saint MArtin,</br>
-                   59400, Cambrai.</p>
-                <p>03.27.83.39.83</p>
+                    <div class="info-add">
+                        <p><img src="icones/home-icone.png" id="home-icone"> Mail Saint Martin, 59400 Cambrai.</p>
+                    </div>
+                    <div class="info-add">
+                        <p><img src="icones/call-icone.png" id="call-icone"> 03.27.83.39.83</p>
+                    </div>
             </div>
-            <div><!--Footer partie centrale-->
-                <h4>Nous Contacter</h4>
-                <a href="contact.html">Contact</a>
+            <div class="footer-main"><!--Footer partie centrale-->
+                    <h4>Nous Contacter</h4>
+                    <a href="contact.html">Contact</a>
             </div>
-            <div><!--Footer partie droite-->
+            <div class="footer-main"><!--Footer partie droite-->
                 <h4>Nous Suivre</h4><!--Ajouter logo et liens Facebook et instagram-->
+                <p id="link-reseaux">Suivez toutes nos actualitées :</p>
+                <a href="https://www.facebook.com/profile.php?id=100052680258353"><img src="icones/facebook-icone.png" id="facebook-icone"></a>
+                <a href="https://www.instagram.com/le_flore_cambrai_/"><img src="icones/instagram-icone.png" id="insta-icone"></a>
             </div>
         </footer>
     </body>
