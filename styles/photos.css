@@ -31,7 +31,8 @@ section {
 }
 
 section img {
-    height: 30em;
+    height: 25em;
+    width: 30% auto;
     margin: 15px;
 }
 
