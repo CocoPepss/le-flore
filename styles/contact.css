@@ -1,0 +1,77 @@
+/*page globale*/
+h1 {
+    font-family: Corinthia, cursive;
+    font-size: 3em;
+    color: orange;
+    margin: 15px;
+}
+
+hr {
+    height: 3px;
+    border: 0;
+    margin: 50px 80px 50px 80px;
+    background-image: linear-gradient(90deg, transparent, #7e895c, transparent);
+    }
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+section {
+    text-align: center;
+}
+
+/*partie "nous contacter"*/
+.nous-contacter div {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.text-and-form {
+    height: auto;
+    width: 60%;
+    margin: auto;
+    padding: 3em;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+ 
+/*Formulaire*/
+legend {
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+}
+
+input {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    height: 35px;
+    width: 100%;
+    margin: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+textarea {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    height: 5em;
+    width: 100%;
+}
+
+#bouton-envoyer {
+    background-color: orange;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 25px 20px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px rgba(126, 137, 92, 0.5);
+}
