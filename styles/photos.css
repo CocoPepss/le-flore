@@ -1,0 +1,42 @@
+/*Page Globale*/
+h1 {
+    font-family: Corinthia, cursive;
+    font-size: 3em;
+    color: orange;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: #7e895c;
+    border-radius: 50% 50% 50% / 100% 0% 100% 0%
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 15px;
+}
+
+hr {
+    height: 3px;
+    border: 0;
+    margin: 50px 80px 50px 80px;
+    background-image: linear-gradient(90deg, transparent, #7e895c, transparent);
+    }
+
+/*Photos*/
+section {
+    text-align: center;
+    margin: 12px 10% auto;
+    padding: 25px;
+}
+
+section img {
+    height: 30em;
+    margin: 15px;
+}
+
+/*Voir pour créer un zoom au survol*/
+/*img:hover {
+    height: 50em;
+    
+}*/
