@@ -35,13 +35,14 @@ nav a:visited {
 /*Pied de page*/
 footer {
     background: linear-gradient(360deg, black, #303030, #606060);
+    font-family: Helvetica, sans-serif;
     color: white;
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    
+    margin-top: 10px;
 }
 
 footer h4 {
@@ -55,18 +56,31 @@ footer h4 {
     text-align: center;
 }
 
+#bouton-footer-contact {
+    background-color: #7e895c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px rgba(126, 137, 92, 0.5);
+}
+
 .info-add {
     text-align: start;
+    margin: 5px;
 }
 
 #home-icone {
     vertical-align: middle;
-    height: 30px;
+    height: 25px;
 }
 
 #call-icone {
     vertical-align: middle;
-    height: 27px;
+    height: 25px;
 }
 
 #link-reseaux {
@@ -75,13 +89,13 @@ footer h4 {
 }
 
 #facebook-icone {
-    height: 30px;
-    margin-right: 15px;
+    height: 40px;
+    margin-right: 12px;
 }
 
 #insta-icone {
-    height: 30px;
-    margin-left: 15px;
+    height: 40px;
+    margin-left: 12px;
 }
 
 footer a:visited {

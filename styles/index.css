@@ -25,7 +25,7 @@ h1 {
 
 p{
     font-family: Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /*image d'acceuil*/
@@ -55,8 +55,7 @@ p{
     margin: auto;
     padding: 30px;
     background-color: rgba(126, 137, 92, 50%) ;
-    
-    border-radius: 16% 84% 23% 77% / 83% 82% 18% 17% 
+    border-radius: 11% 89% 13% 87% / 72% 24% 76% 28%;
 }
 
 /*Les horaires*/
@@ -85,4 +84,41 @@ th {
 
 td {
     text-align: left;
+}
+
+/*Le Contact*/
+#contact p {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#contact a {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid #7e895c;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px rgba(126, 137, 92, 0.5);
+}
+
+/*Les photos*/
+#bouton-photos {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #7e895c;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px rgba(126, 137, 92, 0.5);
+}
+
+#photos img {
+    height: 25em;
 }
