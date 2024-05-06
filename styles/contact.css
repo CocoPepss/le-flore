@@ -26,7 +26,7 @@ section {
 .nous-contacter div {
     display: inline-block;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     vertical-align: middle;
     padding: 10px;
 }
@@ -38,14 +38,19 @@ section {
     padding: 3em;
     border: 2px solid black;
     border-radius: 10%;
+    width: 70%;
 }
+
+#contact-text,
+    #contact-form {
+        width: 50% auto;
+    }
  
 /*Formulaire*/
 legend {
     font-family: Helvetica, sans-serif;
     font-size: 19px;
     font-weight: 600;
-    border: none;
 }
 
 input {
@@ -55,8 +60,9 @@ input {
     width: 100%;
     margin: 5px;
     border-top: 0;
-    border-left: 0;
     border-right: 0;
+    border-bottom: 3px solid grey;
+    border-left: 0;
 }
 
 textarea {
